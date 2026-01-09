@@ -4,97 +4,118 @@
     <title>Sky Hawk Travel & Tourism | Best Travel Rates</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Simple CSS to ensure logo displays properly */
+        @media (max-width: 768px) {
+            .header-container { flex-direction: column; text-align: center; }
+            .logo-container { margin-bottom: 20px; }
+        }
+    </style>
 </head>
 <body style="margin:0; padding:0; font-family:Arial, sans-serif; background:#f5f5f5;">
     
-    <!-- Header with Logo -->
+    <!-- Header with Logo - FIXED -->
     <div style="background:#1a237e; color:white; padding:20px;">
-        <div style="max-width:1000px; margin:0 auto; display:flex; align-items:center; justify-content:center; gap:20px; flex-wrap:wrap;">
-            <!-- Your Logo - UPDATED FILENAME -->
-            <div style="text-align:center;">
+        <div style="max-width:1000px; margin:0 auto; display:flex; align-items:center; justify-content:center; gap:30px; flex-wrap:wrap;" class="header-container">
+            
+            <!-- Your Vertical Logo - ADJUSTED SIZE -->
+            <div style="text-align:center;" class="logo-container">
                 <img src="logopng.png" alt="Sky Hawk Travel Logo" 
-                     style="height:150px; width:auto; padding-right:20px;">
+                     style="height:180px; width:auto; display:block; margin:0 auto;">
+                <p style="margin:5px 0 0 0; font-size:12px; color:#ffd600;">HASZRAT VEGURISM</p>
             </div>
             
             <!-- Company Name -->
-            <div style="text-align:center;">
-                <h1 style="margin:0; font-size:36px; letter-spacing:2px;">SKY HAWK</h1>
-                <h2 style="margin:5px 0; font-weight:normal; font-size:18px;">TRAVEL & TOURISM Pvt Ltd</h2>
-                <p style="color:#ffd600; font-size:22px; margin:10px 0; font-weight:bold;">ENJOY YOUR TRIP!</p>
+            <div style="text-align:center; border-left:2px solid white; padding-left:30px;">
+                <h1 style="margin:0; font-size:42px; letter-spacing:3px; color:#ffd600;">SKY HAWK</h1>
+                <h2 style="margin:5px 0; font-weight:normal; font-size:20px; color:white;">TRAVEL & TOURISM Pvt Ltd</h2>
+                <p style="color:#ffd600; font-size:24px; margin:15px 0; font-weight:bold; font-style:italic;">ENJOY YOUR TRIP!</p>
             </div>
         </div>
     </div>
     
     <!-- Contact Bar -->
-    <div style="background:#283593; color:white; padding:15px; text-align:center; font-size:16px;">
+    <div style="background:#283593; color:white; padding:15px; text-align:center; font-size:18px;">
         <strong>📍 Naimat Market, Kuri Road, Rawalpindi</strong> | 
         <strong>📞 051-4474327</strong>
     </div>
     
     <!-- Main Content -->
     <div style="padding:40px 20px; max-width:800px; margin:0 auto;">
-        <h2 style="color:#1a237e; text-align:center; font-size:28px;">PLAN YOUR NEXT JOURNEY WITH BEST RATES</h2>
-        <p style="text-align:center; color:#555; font-size:18px; margin:20px 0; line-height:1.6;">
+        <h2 style="color:#1a237e; text-align:center; font-size:32px; margin-bottom:20px;">PLAN YOUR NEXT JOURNEY WITH BEST RATES</h2>
+        <p style="text-align:center; color:#555; font-size:20px; margin:20px 0; line-height:1.6; padding:0 20px;">
             Your trusted travel partner for domestic and international tours, flight bookings, 
             hotel reservations, and visa processing with guaranteed best prices.
         </p>
         
         <!-- Call to Action -->
-        <div style="text-align:center; margin:30px 0;">
+        <div style="text-align:center; margin:40px 0;">
             <a href="tel:0514474327" 
-               style="background:#ff6d00; color:white; padding:15px 30px; 
-                      text-decoration:none; font-size:18px; border-radius:5px; 
-                      display:inline-block; font-weight:bold;">
+               style="background:#ff6d00; color:white; padding:18px 40px; 
+                      text-decoration:none; font-size:22px; border-radius:8px; 
+                      display:inline-block; font-weight:bold; box-shadow:0 4px 15px rgba(255,109,0,0.3);">
                📞 CALL NOW FOR BEST QUOTE
             </a>
         </div>
         
         <!-- Services -->
-        <div style="margin:40px 0;">
-            <h3 style="color:#1a237e; border-bottom:2px solid #ff6d00; padding-bottom:10px; font-size:24px;">
+        <div style="margin:50px 0;">
+            <h3 style="color:#1a237e; border-bottom:3px solid #ff6d00; padding-bottom:15px; font-size:28px; text-align:center;">
                 Our Services
             </h3>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:20px; margin-top:20px;">
-                <div style="background:white; padding:20px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.1);">
-                    <h4 style="color:#1a237e; margin:0 0 10px 0; font-size:18px;">✈️ Flight Booking</h4>
-                    <p style="color:#555; margin:0;">Domestic & international flights at discounted rates</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:25px; margin-top:30px;">
+                <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center;">
+                    <div style="font-size:40px; color:#1a237e; margin-bottom:15px;">✈️</div>
+                    <h4 style="color:#1a237e; margin:0 0 15px 0; font-size:22px;">Flight Booking</h4>
+                    <p style="color:#555; margin:0; line-height:1.5;">Domestic & international flights at discounted rates</p>
                 </div>
-                <div style="background:white; padding:20px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.1);">
-                    <h4 style="color:#1a237e; margin:0 0 10px 0; font-size:18px;">🏨 Hotel Reservation</h4>
-                    <p style="color:#555; margin:0;">Best hotel deals worldwide</p>
+                <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center;">
+                    <div style="font-size:40px; color:#1a237e; margin-bottom:15px;">🏨</div>
+                    <h4 style="color:#1a237e; margin:0 0 15px 0; font-size:22px;">Hotel Reservation</h4>
+                    <p style="color:#555; margin:0; line-height:1.5;">Best hotel deals worldwide</p>
                 </div>
-                <div style="background:white; padding:20px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.1);">
-                    <h4 style="color:#1a237e; margin:0 0 10px 0; font-size:18px;">🛂 Visa Processing</h4>
-                    <p style="color:#555; margin:0;">Complete visa assistance for all countries</p>
+                <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center;">
+                    <div style="font-size:40px; color:#1a237e; margin-bottom:15px;">🛂</div>
+                    <h4 style="color:#1a237e; margin:0 0 15px 0; font-size:22px;">Visa Processing</h4>
+                    <p style="color:#555; margin:0; line-height:1.5;">Complete visa assistance for all countries</p>
                 </div>
-                <div style="background:white; padding:20px; border-radius:8px; box-shadow:0 3px 10px rgba(0,0,0,0.1);">
-                    <h4 style="color:#1a237e; margin:0 0 10px 0; font-size:18px;">🎒 Tour Packages</h4>
-                    <p style="color:#555; margin:0;">Customized packages for individuals & groups</p>
+                <div style="background:white; padding:25px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); text-align:center;">
+                    <div style="font-size:40px; color:#1a237e; margin-bottom:15px;">🎒</div>
+                    <h4 style="color:#1a237e; margin:0 0 15px 0; font-size:22px;">Tour Packages</h4>
+                    <p style="color:#555; margin:0; line-height:1.5;">Customized packages for individuals & groups</p>
                 </div>
             </div>
         </div>
         
         <!-- Contact Info -->
-        <div style="background:white; padding:30px; border-radius:10px; margin:40px 0; box-shadow:0 5px 15px rgba(0,0,0,0.1);">
-            <h3 style="color:#1a237e; margin:0 0 20px 0; text-align:center; font-size:24px;">
-                Contact Information
-            </h3>
-            <div style="text-align:center; font-size:16px;">
-                <p style="margin:10px 0;"><strong>📍 Address:</strong> Naimat Market, Kuri Road, Rawalpindi</p>
-                <p style="margin:10px 0;"><strong>📞 Phone:</strong> 051-4474327</p>
-                <p style="margin:10px 0;"><strong>⏰ Hours:</strong> Monday-Saturday: 9AM-7PM, Sunday: 10AM-4PM</p>
+        <div style="background:white; padding:40px; border-radius:15px; margin:50px 0; box-shadow:0 8px 25px rgba(0,0,0,0.1); text-align:center;">
+            <h3 style="color:#1a237e; margin:0 0 25px 0; font-size:28px;">Contact Information</h3>
+            <div style="font-size:18px;">
+                <p style="margin:15px 0;"><strong style="color:#1a237e;">📍 Address:</strong><br>Naimat Market, Kuri Road, Rawalpindi</p>
+                <p style="margin:15px 0;"><strong style="color:#1a237e;">📞 Phone:</strong><br>051-4474327</p>
+                <p style="margin:15px 0;"><strong style="color:#1a237e;">⏰ Hours:</strong><br>Monday-Saturday: 9AM-7PM<br>Sunday: 10AM-4PM</p>
             </div>
         </div>
     </div>
     
     <!-- Footer -->
-    <div style="background:#1a237e; color:white; padding:30px; text-align:center;">
+    <div style="background:#1a237e; color:white; padding:40px; text-align:center;">
         <div style="max-width:800px; margin:0 auto;">
-            <p style="font-size:20px; margin:0 0 10px 0;"><strong>SKY HAWK TRAVEL & TOURISM</strong></p>
-            <p style="color:#ffd600; font-size:18px; margin:10px 0;">ENJOY YOUR TRIP! | BEST RATES GUARANTEED</p>
-            <p style="margin:10px 0;">📍 Naimat Market, Kuri Road, Rawalpindi | 📞 051-4474327</p>
+            <p style="font-size:24px; margin:0 0 15px 0; color:#ffd600;"><strong>SKY HAWK TRAVEL & TOURISM</strong></p>
+            <p style="color:#ffd600; font-size:20px; margin:15px 0; font-style:italic;">ENJOY YOUR TRIP! | BEST RATES GUARANTEED</p>
+            <p style="margin:15px 0; font-size:18px;">📍 Naimat Market, Kuri Road, Rawalpindi | 📞 051-4474327</p>
             
-            <p style="margin-top:20px; color:#bdbdbd; font-size:14px;">
+            <!-- WhatsApp Button -->
+            <div style="margin:25px 0;">
+                <a href="https://wa.me/923001234567?text=Hello%20Sky%20Hawk%20Travel%2C%20I%20need%20travel%20information" 
+                   style="background:#25D366; color:white; padding:12px 25px; 
+                          text-decoration:none; border-radius:5px; font-size:18px;
+                          display:inline-block; margin:10px;">
+                   📱 Chat on WhatsApp
+                </a>
+            </div>
+            
+            <p style="margin-top:30px; color:#bdbdbd; font-size:14px;">
                 &copy; 2024 Sky Hawk Travel & Tourism Pvt Ltd | Enjoy Your Trip!
             </p>
         </div>
